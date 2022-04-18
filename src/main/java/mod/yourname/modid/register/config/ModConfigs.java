@@ -1,4 +1,4 @@
-package mod.yourname.yourmodid.register.config;
+package mod.yourname.modid.register.config;
 
 import com.simibubi.create.foundation.config.ConfigBase;
 import net.minecraftforge.common.ForgeConfigSpec;
@@ -50,7 +50,7 @@ public class ModConfigs {
     }
 
     public static void register() {
-        SERVER = register(ModServerConfig::new, ModConfig.Type.SERVER);
+//        SERVER = register(ModServerConfig::new, ModConfig.Type.SERVER);
         // server is here as an example, as its the most used config type in create, and adding more is pretty much the same
 
         for (Map.Entry<Config, ModConfig.Type> pair : configs.entrySet())

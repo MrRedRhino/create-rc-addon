@@ -1,8 +1,8 @@
-package mod.yourname.yourmodid.register;
+package mod.yourname.modid.register;
 
 import com.jozufozu.flywheel.core.PartialModel;
 import com.simibubi.create.Create;
-import mod.yourname.yourmodid.BuildConfig;
+import mod.pipeman.create_rc.BuildConfig;
 import net.minecraft.util.ResourceLocation;
 
 public class ModPartials {
